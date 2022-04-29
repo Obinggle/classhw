@@ -19,10 +19,6 @@ class ViewController: UIViewController {
         label.textColor = UIColor.darkGray
         label.textAlignment = .center
     }
-    @IBAction func tap1(){
-        self.present(AdvertiseView(), animated:true, completion: nil)
-    }
-
 
 }
 

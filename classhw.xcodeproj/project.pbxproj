@@ -14,9 +14,9 @@
 		3A849143280FFEC500D1E0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A849142280FFEC500D1E0C9 /* Assets.xcassets */; };
 		3A849146280FFEC500D1E0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A849144280FFEC500D1E0C9 /* LaunchScreen.storyboard */; };
 		3A849150280FFF4B00D1E0C9 /* AdvertiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A84914F280FFF4B00D1E0C9 /* AdvertiseView.swift */; };
-		3A849154281003C300D1E0C9 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A849151281003C300D1E0C9 /* image2.png */; };
 		3A849156281003C300D1E0C9 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A849153281003C300D1E0C9 /* image1.png */; };
-		3A89F1AF28105EF200D4584E /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A89F1AE28105EF200D4584E /* image3.png */; };
+		3A9387AF281B98DA004D0B3D /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A9387AD281B98DA004D0B3D /* image2.png */; };
+		3A9387B0281B98DA004D0B3D /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A9387AE281B98DA004D0B3D /* image3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		3A849145280FFEC500D1E0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A849147280FFEC500D1E0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A84914F280FFF4B00D1E0C9 /* AdvertiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiseView.swift; sourceTree = "<group>"; };
-		3A849151281003C300D1E0C9 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = ../../image2.png; sourceTree = "<group>"; };
 		3A849153281003C300D1E0C9 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
-		3A89F1AE28105EF200D4584E /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image3.png; path = ../../image3.png; sourceTree = "<group>"; };
+		3A9387AD281B98DA004D0B3D /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = ../../../image2.png; sourceTree = "<group>"; };
+		3A9387AE281B98DA004D0B3D /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image3.png; path = ../../../image3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				3A849138280FFEC300D1E0C9 /* classhw */,
-				3A849151281003C300D1E0C9 /* image2.png */,
-				3A89F1AE28105EF200D4584E /* image3.png */,
 				3A849137280FFEC300D1E0C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +73,8 @@
 				3A849147280FFEC500D1E0C9 /* Info.plist */,
 				3A84914F280FFF4B00D1E0C9 /* AdvertiseView.swift */,
 				3A849153281003C300D1E0C9 /* image1.png */,
+				3A9387AD281B98DA004D0B3D /* image2.png */,
+				3A9387AE281B98DA004D0B3D /* image3.png */,
 			);
 			path = classhw;
 			sourceTree = "<group>";
@@ -138,11 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A849146280FFEC500D1E0C9 /* LaunchScreen.storyboard in Resources */,
+				3A9387B0281B98DA004D0B3D /* image3.png in Resources */,
 				3A849143280FFEC500D1E0C9 /* Assets.xcassets in Resources */,
 				3A849156281003C300D1E0C9 /* image1.png in Resources */,
-				3A849154281003C300D1E0C9 /* image2.png in Resources */,
-				3A89F1AF28105EF200D4584E /* image3.png in Resources */,
 				3A849141280FFEC300D1E0C9 /* Main.storyboard in Resources */,
+				3A9387AF281B98DA004D0B3D /* image2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZTRDYYN8R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = classhw/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZTRDYYN8R;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = classhw/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

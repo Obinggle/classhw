@@ -29,7 +29,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                 <connections>
-                                    <action selector="tap1" destination="BYZ-38-t0r" eventType="touchUpInside" id="RPR-lD-v0u"/>
+                                    <segue destination="avj-5i-B8X" kind="presentation" id="cQf-VE-o66"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -50,19 +50,29 @@
             <objects>
                 <viewController id="avj-5i-B8X" customClass="AdvertiseView" customModule="classhw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZMs-2h-cdD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bpv-hB-RJB">
                                 <rect key="frame" x="87" y="212" width="240" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBj-Pm-y33">
+                                <rect key="frame" x="130" y="530" width="154" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Chang Image"/>
+                                <connections>
+                                    <action selector="button2:" destination="avj-5i-B8X" eventType="touchUpInside" id="bXL-KD-ZoM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x2X-3Z-bdb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="imageview" destination="Bpv-hB-RJB" id="ILz-tT-1XV"/>
+                        <outlet property="button2" destination="nBj-Pm-y33" id="Sjx-BP-yeM"/>
+                        <outlet property="imageview1" destination="Bpv-hB-RJB" id="d28-CR-dOB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W9Q-Ga-0uA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
